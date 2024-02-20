@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dog_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pole"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/dog_obj"
+        android:layout_width="181dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="50dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@android:color/transparent"
+        android:importantForAccessibility="no"
+        android:onClick="soundButton2"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/dog_image_nb"
+        app:layout_constraintTop_toBottomOf="@+id/med_obj"
+        app:layout_constraintVertical_bias="0.75"
+        app:srcCompat="@drawable/korm"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/dog_image_nb"
+        android:layout_width="233dp"
+        android:layout_height="392dp"
+        android:layout_marginBottom="4dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/dog_2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="56dp" />
+
+    <ImageButton
+        android:id="@+id/imButTuch"
+        android:layout_width="244dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:color/transparent"
+        android:onClick="soundButton3"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tucha"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/title_name"
+        android:layout_width="341dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/title_text"
+        android:textAlignment="center"
+        android:textColor="#970F05"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <ImageButton
+        android:id="@+id/med_obj"
+        android:layout_width="131dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="28dp"
+        android:background="@null"
+        android:onClick="soundPlayButton"
+        android:scaleType="centerInside"
+        android:tint="@android:color/transparent"
+        app:layout_constraintTop_toBottomOf="@+id/title_name"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,UseAppTint"
+        tools:layout_editor_absoluteX="16dp"
+        android:importantForAccessibility="no" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="267dp"
+        android:layout_height="518dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="12dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toTopOf="@+id/dog_obj"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/medved_2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_kust"
+        android:layout_width="303dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="265dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/med_obj"
+        app:layout_constraintVertical_bias="0.802"
+        app:srcCompat="@drawable/kust_2"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="80dp"
+        android:onClick="About"
+        android:text="@string/btn_about"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Instruct_text"
+        android:layout_width="146dp"
+        android:layout_height="216dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="12dp"
+        android:text="@string/instruct_text"
+        android:textColor="@color/gold"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

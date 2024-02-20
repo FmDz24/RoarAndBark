@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">РёвИлай</string>
+    <string name="dev_name">Medvision Developers</string>
+    <string name="my_name">Сделано Дмитрием Медведько 2024 г.</string>
+    <string name="btn_1">ВЫХОД</string>
+    <string name="btn_about">О программе</string>
+    <string name="title_text">Рёв и Лай</string>
+    <string name="instruct_text">Дай пять медведю, но не трогай собачий корм!</string>
+    <string name="btn_2">Что делать?</string>
+    <string name="btn_3">О программе.</string>
+    <string name="btn_4">В море!</string>
+    <string name="btn_error">Ошб</string>
+    <string name="btn_er">Ой</string>
+    <string name="mark">Medvision\n Developers</string>
+    <string name="abDev">Приложение\n разработано\n Дмитрием Медведько,\n 20 января 2024 г.\n в целях обучения и развлечения.</string>
+    <string name="title_activity_dolf3">Dolf_3</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_about3s">About_3s</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
